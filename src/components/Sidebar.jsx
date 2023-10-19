@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, NavLink } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 import {SiHexo} from 'react-icons/si';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import {MdOutlineCancel, MdKeyboardArrowDown} from 'react-icons/md';
