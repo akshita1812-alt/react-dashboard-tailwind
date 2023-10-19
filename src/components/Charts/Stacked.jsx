@@ -41,6 +41,6 @@ const Stacked = () => {
   )
 }
 
-
+// git remote add origin https://github.com/akshita1812-alt/react-dashboard-tailwind.git
 
 export default Stacked
