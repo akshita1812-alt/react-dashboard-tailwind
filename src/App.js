@@ -36,13 +36,13 @@ function App() {
       <div>
         <Routes>
         {/* {themeSettings && (<ThemeSettings />)} */}
-          <Route path='/react-dashboard-tailwind/' element={<Dashboard />} />
-          <Route path='/dashboard' element={<Dashboard />} /> 
-          <Route path='/customers' element={<Customers />} />
-          <Route path='/products' element={<Product />} />
-          <Route path='/income' element={<Income />} />
-          <Route path='/promote' element={<Promote />} />
-          <Route path='/help' element={<Help />} />
+          <Route path='/react-dashboard-tailwind' element={<Dashboard />} />
+          <Route path='/react-dashboard-tailwind/dashboard' element={<Dashboard />} /> 
+          <Route path='/react-dashboard-tailwind/customers' element={<Customers />} />
+          <Route path='/react-dashboard-tailwind/products' element={<Product />} />
+          <Route path='/react-dashboard-tailwind/income' element={<Income />} />
+          <Route path='/react-dashboard-tailwind/promote' element={<Promote />} />
+          <Route path='/react-dashboard-tailwind/help' element={<Help />} />
         </Routes>
       </div>
       </div>
