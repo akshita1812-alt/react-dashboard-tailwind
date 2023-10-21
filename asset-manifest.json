@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-dashboard-tailwind/static/css/main.bed26b9e.css",
-    "main.js": "/react-dashboard-tailwind/static/js/main.de79fdb1.js",
+    "main.css": "/react-dashboard-tailwind/static/css/main.827c18c4.css",
+    "main.js": "/react-dashboard-tailwind/static/js/main.923a85b4.js",
     "static/js/787.545aecf5.chunk.js": "/react-dashboard-tailwind/static/js/787.545aecf5.chunk.js",
     "index.html": "/react-dashboard-tailwind/index.html",
-    "main.bed26b9e.css.map": "/react-dashboard-tailwind/static/css/main.bed26b9e.css.map",
-    "main.de79fdb1.js.map": "/react-dashboard-tailwind/static/js/main.de79fdb1.js.map",
+    "main.827c18c4.css.map": "/react-dashboard-tailwind/static/css/main.827c18c4.css.map",
+    "main.923a85b4.js.map": "/react-dashboard-tailwind/static/js/main.923a85b4.js.map",
     "787.545aecf5.chunk.js.map": "/react-dashboard-tailwind/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bed26b9e.css",
-    "static/js/main.de79fdb1.js"
+    "static/css/main.827c18c4.css",
+    "static/js/main.923a85b4.js"
   ]
 }
