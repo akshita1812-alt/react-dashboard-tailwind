@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {HashRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import {FiSettings} from 'react-icons/fi';
 import {TooltipComponent} from '@syncfusion/ej2-react-popups';
 import {Navbar,  Sidebar} from './components';
@@ -11,7 +11,7 @@ function App() {
   const {activeMenu} = useStateContext();
   return (
     <div >
-    <HashRouter basename='{process.env.PUBLIC_URL}'>
+    <BrowserRouter basename='{process.env.PUBLIC_URL}'>
      <div className='flex relative dark:bg-main-dark-bg'>
       <div className='fixed right-4 bottom-4' style={{zIndex: '1000'}}>
         <TooltipComponent content='Setting' position='Top'>
@@ -36,7 +36,7 @@ function App() {
       <div>
         <Routes>
         {/* {themeSettings && (<ThemeSettings />)} */}
-          <Route path='/react-dashboard-tailwind' element={<Dashboard />} />
+          <Route path='/react-dashboard-tailwind' component={Dashboard} />
           <Route path='/react-dashboard-tailwind/dashboard' element={<Dashboard />} /> 
           <Route path='/react-dashboard-tailwind/customers' element={<Customers />} />
           <Route path='/react-dashboard-tailwind/products' element={<Product />} />
@@ -47,7 +47,7 @@ function App() {
       </div>
       </div>
      </div>
-     </HashRouter>
+     </BrowserRouter>
     </div>
   );
 }
