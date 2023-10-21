@@ -37,11 +37,7 @@ function App() {
         <Routes>
         {/* {themeSettings && (<ThemeSettings />)} */}
           <Route path='/' element={<Dashboard />} />
-<<<<<<< HEAD
-          <Route path='/dashboard' element={<Dashboard />} />
-=======
           <Route path='/dashboard' element={<Dashboard />} /> 
->>>>>>> 5b42cf52fb63b5aaea72a275ba81cbd5941a0c57
           <Route path='/customers' element={<Customers />} />
           <Route path='/products' element={<Product />} />
           <Route path='/income' element={<Income />} />
