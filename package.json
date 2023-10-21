@@ -1,7 +1,7 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
-  "homepage": "https://akshita1812-alt.github.io/react-dashboard-tailwind",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@syncfusion/ej2": "^19.4.48",
