@@ -36,7 +36,7 @@ function App() {
       <div>
         <Routes>
         {/* {themeSettings && (<ThemeSettings />)} */}
-          <Route path='/' element={<Dashboard />} />
+          <Route path='/react-dashboard-tailwind/' element={<Dashboard />} />
           <Route path='/dashboard' element={<Dashboard />} /> 
           <Route path='/customers' element={<Customers />} />
           <Route path='/products' element={<Product />} />
